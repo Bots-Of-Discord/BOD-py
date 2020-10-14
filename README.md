@@ -10,4 +10,5 @@ client = commands.Bot(command_prefix='!')
 async def on_ready():
     print(main.BODServerCount(client, 'AuthTokenHere'))
 
-client.run("Discord Bot Token")```
+client.run("Discord Bot Token")
+```
